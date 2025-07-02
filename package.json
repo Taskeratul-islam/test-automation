@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test:workspace-landing-page": "npx playwright test --grep Workspace Landing Page Test"
+    "test:workspace-landing-page": "npx playwright test --grep Workspace Landing Page Test",
+    "test:idea-management-page": "npx playwright test --grep Idea Management Page Test"
   },
   "keywords": [],
   "author": "",
@@ -11,10 +12,10 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.53.2",
+    "@types/dotenv": "^8.2.3",
     "@types/node": "^24.0.8"
   },
   "dependencies": {
     "dotenv": "^17.0.0"
   }
-  
 }
