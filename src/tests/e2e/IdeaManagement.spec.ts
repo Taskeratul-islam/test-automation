@@ -16,8 +16,7 @@ test.describe('Idea Management Page Test', () => {
         });
 
         await test.step('navigate to communityHomePage', async () => {
-            const topBar = await ideaManagementPage.getTopBar();
-            const communityHomePage = await topBar.clickHomeButton();
+            const communityHomePage = await ideaManagementPage.getTopBar().clickHomeButton();
             await expect(communityHomePage.isAtPage()).resolves.toBeTruthy();
         });
     });

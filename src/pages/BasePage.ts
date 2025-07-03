@@ -1,9 +1,11 @@
 import { expect, Page } from "@playwright/test";
+import { AbstractPage } from "./AbstractPage";
 
-export abstract class BasePage {
+export abstract class BasePage extends AbstractPage{
   readonly page: Page;
 
   protected constructor(page: Page) {
+    super(page);
     this.page = page;
   }
 

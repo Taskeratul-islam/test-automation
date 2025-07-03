@@ -1,4 +1,3 @@
-import { TopBar } from "@components/TopBar";
 import { BasePage } from "@pages/BasePage";
 import { Page } from "@playwright/test";
 
@@ -28,11 +27,4 @@ export class IdeaManagementPage extends BasePage {
         this.communityKey = communityKey;
         return this;
     }
-
-    getTopBar(): TopBar {
-    return new TopBar(
-        this.page, 
-        this.page.locator("nav#universal-top-bar, nav.navbar-top")
-    );
-  }
 }
