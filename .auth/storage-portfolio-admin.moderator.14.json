@@ -1,0 +1,45 @@
+{
+  "cookies": [
+    {
+      "name": "cookie-consent-v2",
+      "value": "eyJjb29raWVDYXRlZ29yaWVzIjpbIkVTU0VOVElBTCIsIkFOQUxZVElDUyIsIk5PTl9FU1NFTlRJQUwiXSwiZXhwaXJhdGlvbiI6IjIwMjUtMTAtMDFUMDM6MzU6MDYuNDI4NDYyODY1In0%3D",
+      "domain": ".idea-management.ideascale.me",
+      "path": "/",
+      "expires": 1759314906.354308,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ISSESSIONID",
+      "value": "23986108-704c-4b7c-8566-23d8651b6aa9",
+      "domain": ".idea-management.ideascale.me",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "IdeaScale",
+      "value": "DjSh_aVRx84PH3xxni0NRBdVXkeYfbUoSRPch8vOUcRXTDVUIfiWHcN-Rd6HHN5Rh4FCnUZz5VITUWSu7gqqxW0__o50gmHy6HCzG16A4kwDUKWd5k-v2B-IBFLhWDRWuoJyLxITYg5IYaNp-lc0d4iT8_FfifZilV5RUgRDLVgNLa7GgEOYGgDDKXhgIfm2Zebqu_PfCBVorr0LrA1z4Q",
+      "domain": ".idea-management.ideascale.me",
+      "path": "/",
+      "expires": 1752748511.917907,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://idea-management.ideascale.me",
+      "localStorage": [
+        {
+          "name": "i18nextLng",
+          "value": "en"
+        }
+      ]
+    }
+  ]
+}

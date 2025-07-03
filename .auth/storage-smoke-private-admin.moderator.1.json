@@ -2,17 +2,17 @@
   "cookies": [
     {
       "name": "cookie-consent-v2",
-      "value": "eyJjb29raWVDYXRlZ29yaWVzIjpbIkVTU0VOVElBTCIsIkFOQUxZVElDUyIsIk5PTl9FU1NFTlRJQUwiXSwiZXhwaXJhdGlvbiI6IjIwMjUtMDktMzBUMDY6NDA6NDUuOTE3NzA3MjYyIn0%3D",
+      "value": "eyJjb29raWVDYXRlZ29yaWVzIjpbIkVTU0VOVElBTCIsIkFOQUxZVElDUyIsIk5PTl9FU1NFTlRJQUwiXSwiZXhwaXJhdGlvbiI6IjIwMjUtMTAtMDFUMDE6NDU6MTMuOTA1NzU3Mzc0In0%3D",
       "domain": ".smoke.ideascale.me",
       "path": "/",
-      "expires": 1759239645,
+      "expires": 1759308313.898896,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "ISSESSIONID",
-      "value": "97018821-bf63-43dc-a39c-438637ef9094",
+      "value": "cd010420-a18d-47f1-9b0a-f32eb97b35b0",
       "domain": ".smoke.ideascale.me",
       "path": "/",
       "expires": -1,
@@ -22,10 +22,10 @@
     },
     {
       "name": "IdeaScale",
-      "value": "DjSh_aVRx84PH3xxni0NRIfY1H8T6ffX-VwDrdCHa1rX1cPaF_arZCp7iIj1oMOPbm_neBwIPupYSa3rLI4NJI8kCTykUr8xox_1T7eAkqU3r7XxTEzkPgYt90NmoDZ-zHLCO9QYLEj40PS0YBz_zhAI8J1sax7JZcOTINvWuZ0wJ96WZsRJMvqXsmbMv5eBVKnfZRnSlwGMv8db7kuRNQ",
+      "value": "DjSh_aVRx84PH3xxni0NRLvLBDQNBqivMAiyGcO3I3eVLObdGsBvWQ484WsQw_FC3CgDt_a8JnGwxNI6rzTYs_Jcu7E3-dk3wuxzpBugDy4CVfdIsMtSxZ5zB2xh_zeK4JrSrNKiP-LQ93riKeAn0GwqPWr-dUJ8A9tEtz_2vqKiNj-gE1tc1NefrNmuCMVOUKLmPdJfeODgk1-i1pj6Tw",
       "domain": ".smoke.ideascale.me",
       "path": "/",
-      "expires": 1752673247,
+      "expires": 1752741914.721823,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
