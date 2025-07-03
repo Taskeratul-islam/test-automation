@@ -1,4 +1,5 @@
 import { Locator, Page } from "@playwright/test";
+import { BasePage } from "@pages/BasePage";
 import { CommunityHomePage } from "@pages/CommunityHomePage";
 
 export class TopBar {
@@ -10,9 +11,9 @@ export class TopBar {
     this.container = container;
   }
   
-    async clickHomeButton(): Promise<CommunityHomePage> {
+  async clickHomeButton<T extends BasePage>(clazz: new (page: Page) => T): Promise<T> {
     const homeButton = this.container.locator("a.nav-link[href$='/'], a.no-dropdown");
     await homeButton.first().click();
-    return new CommunityHomePage(this.page);
-}
+    return new clazz(this.page);
+  }
 }

@@ -1,6 +1,7 @@
 import { expect, test } from "@fixtures/PageFixtures";
 import { IdeaManagementPage } from '@pages/IdeaManagementPage';
 import { getAuthenticatedPage } from "@utils/AuthSetup";
+import { CommunityHomePage } from '@pages/CommunityHomePage';
 
 const COMMUNITY_ADMIN_KEY = 'IDEA_MANAGEMENT_COMMUNITY_ADMIN';
 const COMMUNITY_KEY = process.env.IDEA_MANAGEMENT_COMMUNITY_ADMIN_COMMUNITY_KEY || '';
@@ -16,7 +17,7 @@ test.describe('Idea Management Page Test', () => {
         });
 
         await test.step('navigate to communityHomePage', async () => {
-            const communityHomePage = await ideaManagementPage.getTopBar().clickHomeButton();
+            const communityHomePage = await ideaManagementPage.getTopBar().clickHomeButton(CommunityHomePage);
             await expect(communityHomePage.isAtPage()).resolves.toBeTruthy();
         });
     });
